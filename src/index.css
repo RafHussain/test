@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Sen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Sen', sans-serif;
+}
+
+body *{
+  font-family: 'Sen', sans-serif;
+  letter-spacing: -0.07em;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.width {
+  max-width: 1180px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  margin: 20px 0 30px 0;
+}
+
+#header-left {
+  float: left;
+  width: 615px;
+  position: relative;
+  font-size: 1.075em;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+
+.loading-container{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  z-index: 11000;
+  width: 100%;
+}
